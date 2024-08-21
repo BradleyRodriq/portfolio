@@ -17,19 +17,20 @@ svg {
 
 :root {
   /* Colors */
-  --bkg: 222 47.4% 11.2%;
-  --bkg-alt: 226 58.3% 18.8%;
-  --text: 226 100% 93.9%;
-  --text-alt: 226 22.1% 73.3%;
-  --muted: 230 39% 67.8%;
-  --white: 255 100% 100%;
-  --accent1: 241 76.8% 62.7%;
-  --accent2: 330 85.2% 60.4%;
-  --accent3: 0 90.6% 70.8%;
+  --bkg: 220 50% 10%;        /* Deep teal */
+  --bkg-alt: 210 100% 100%;    /* Soft muted blue-gray */
+  --text: 180 30% 50%;          /* Soft white for text */
+  --text-alt: 100 100% 100%;      /* Lighter gray for secondary text */
+  --icon: 270 50% 50%;       /* Purple */
+  --muted: 0 0% 65%;      /* Muted dark teal */
+  --white: 0 0% 95%;         /* Off-white */
+  --accent1: 270 50% 50%;    /* Purple */
+  --accent2: 180 30% 50%;    /* Teal */
+  --accent3: 0 0% 50%;       /* Gray */
   --gradient: linear-gradient(
     94.55deg,
-    hsl(var(--accent2)) -4.6%,
-    hsl(var(--accent3)) 99.9%
+    hsl(var(--accent1)) -10.6%,
+    hsl(var(--accent2)) 99.9%
   );
 }
 
@@ -329,7 +330,7 @@ header {
 }
 
 .service--icon {
-  background-color: hsl(var(--muted));
+  background-color: hsl(var(--icon));
   justify-self: start;
   padding: clamp(0.6rem, 3vw, .8rem);
   border-radius: 50%;
@@ -376,7 +377,9 @@ header {
 
 .review-content {
   max-width: 80%;
+  color: hsl(var(--muted))
 }
+
 
 .review-btn {
   position: absolute;
