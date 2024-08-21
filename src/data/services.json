@@ -1,32 +1,32 @@
 [
   {
     "icon": "feather:code",
-    "name": "Custom Coding",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "name": "Full Stack Developer",
+    "content" : "As a Full Stack Developer, I handle both front-end and back-end development. I create user interfaces with HTML, CSS, and JavaScript, and manage server-side logic using tools like Node.js and Python. My broad skill set lets me build and maintain complete web applications."
   },
   {
     "icon": "feather:users",
-    "name": "User Friendly",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam iquam vel nibh amet, vitae at purus dui semper vel facilisis enim vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "name": "Team Player",
+    "content" : "I work well with others, contributing ideas and supporting my team. My strong communication skills and openness to feedback help create a cooperative and productive work environment."
   },
   {
     "icon": "feather:search",
-    "name": "SEO Optimized",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "name": "Quick Learner",
+    "content" : "I quickly pick up new skills and technologies. My curiosity and proactive attitude enable me to adapt and stay current with industry trends efficiently."
   },
   {
-    "icon": "feather:trending-up",
-    "name": "Built for Growth",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at vitae a vitae a purus dui semper vel facilisis enim"
+    "icon": "feather:monitor",
+    "name": "Problem Solver",
+    "content" : "I excel at identifying and solving problems. My analytical approach and creativity help me break down complex issues and find effective solutions."
   },
   {
-    "icon": "feather:smartphone",
-    "name": "Ready for Mobile",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "icon": "feather:terminal",
+    "name": "Public Speaker",
+    "content" : "I confidently present information to various audiences. I’m skilled at engaging people and conveying ideas clearly and effectively."
   },
   {
-    "icon": "feather:home",
-    "name": "Feels like you",
-    "content" : "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "icon": "feather:toggle-right",
+    "name": "Available!",
+    "content" : ""
   }
 ]

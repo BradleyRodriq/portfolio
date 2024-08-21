@@ -1,28 +1,27 @@
 [
   {
-    "name": "John Doe",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim",
+    "name": "TravelVibesPR",
+    "content": "A personalized travel advisor built using MongoDB, Express, React, and NodeJS.  Users can create an account, add vibes and will see a customized reccomendation based on their vibe.",
     "avatar": "/assets/avatar-1.jpeg",
+    "link": "http://3.145.2.209:5000/",
     "active": true
   },
   {
-    "name": "Christian Jones",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim",
-    "avatar": "/assets/avatar-2.jpeg"
+    "name": "Inventory Management Tool",
+    "content": "A simple stock keeping tool with an intuitive user interface built using Django and Bootstrap. It allows users to add, edit, and delete items from their inventory.",
+    "avatar": "/assets/avatar-2.jpeg",
+    "link": "https://github.com/BradleyRodriq/inventory-manager"
   },
   {
-    "name": "Clarence Robinson",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim vel facilisis enim",
-    "avatar": "/assets/avatar-3.jpeg"
+    "name": "Scheduler",
+    "content": "A schedule automation tool built using Python and Tkinter. It automatically generates a schedule based on guide availability.",
+    "avatar": "/assets/avatar-3.jpeg",
+    "link": "https://github.com/BradleyRodriq/scheduler"
   },
   {
-    "name": "Kathleen Alday",
-    "content": "iquam amet, vitae at purus dui semper vel facilisis enim",
-    "avatar": "/assets/avatar-4.jpeg"
-  },
-  {
-    "name": "Tina Givens",
-    "content": "iquam vel nibh amet, vitae at purus enim enim dui semper vel facilisis enim",
-    "avatar": "/assets/avatar-5.jpeg"
+    "name": "AI Image Generator",
+    "content": "Currently in progress. This project will use machine learning to generate images based on user input using JavaScript.",
+    "avatar": "/assets/avatar-4.jpeg",
+    "link": "https://github.com/BradleyRodriq/image-generator"
   }
 ]

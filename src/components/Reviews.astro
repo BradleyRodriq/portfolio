@@ -1,5 +1,5 @@
 ---
-import {Icon} from 'astro-icon';
+import { Icon } from 'astro-icon';
 import data from '../data/reviews.json';
 ---
 
@@ -12,36 +12,33 @@ import data from '../data/reviews.json';
     <div class="reviews">
       {
         data.slice(data.length - 1).map((review) => (
-          <div class="review grid-sm">
-            <img src={review.avatar} alt={review.name} class="review-avatar">
+          <div class="review grid-sm" key={review.name}>
             <p class="review-content">{review.content}</p>
-            <p class="review-name text-gradient h3">{review.name}</p>
+            <a href={review.link} class="review-name text-gradient h3" target="_blank" rel="noopener noreferrer">{review.name}</a>
           </div>
         ))
       }
       {
         data.map((review) => (
-          <div class="review grid-sm">
-            <img src={review.avatar} alt={review.name} class="review-avatar">
+          <div class="review grid-sm" key={review.name}>
             <p class="review-content">{review.content}</p>
-            <p class="review-name text-gradient h3">{review.name}</p>
+            <a href={review.link} class="review-name text-gradient h3" target="_blank" rel="noopener noreferrer">{review.name}</a>
           </div>
         ))
       }
       {
         data.slice(0,1).map((review) => (
-          <div class="review grid-sm">
-            <img src={review.avatar} alt={review.name} class="review-avatar">
+          <div class="review grid-sm" key={review.name}>
             <p class="review-content">{review.content}</p>
-            <p class="review-name text-gradient h3">{review.name}</p>
+            <a href={review.link} class="review-name text-gradient h3" target="_blank" rel="noopener noreferrer">{review.name}</a>
           </div>
         ))
       }
     </div>
     <div class="indicator-container">
       {
-        data.map((review) => (
-          <button class="indicator ${review?.active && 'active'}"></button>
+        data.map((review, index) => (
+          <button class="indicator ${review?.active && 'active'}" key={index}></button>
         ))
       }
     </div>
